@@ -6,7 +6,7 @@ import net.minecraftforge.common.config.Config;
 @Config(modid = Reference.MOD_ID, name = "advanced_xray", type = Config.Type.INSTANCE)
 public class Configuration
 {
-//    public static String version = "";
+    public static String version = "";
 
     @Config.Comment({
             "DO NOT TOUCH!",
@@ -38,7 +38,7 @@ public class Configuration
     @Config.RangeDouble(min = 0.5, max = 5.0)
     public static double outlineThickness = 1f;
 
-//	public static float outlineThickness = 1f;
+	public static float outlineThickness = 1f;
 //	public static float outlineOpacity = 1f;
 //	public static boolean showOverlay = true;
 //	public static boolean shouldFade = true;
